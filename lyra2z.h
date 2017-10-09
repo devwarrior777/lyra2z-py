@@ -1,4 +1,3 @@
-#pragma once
 
 #ifndef _LYRA2Z_H
 # define _LYRA2Z_H
