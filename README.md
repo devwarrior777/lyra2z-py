@@ -20,8 +20,8 @@ from ocminer:
 
 Requirements:
 -------------------------
-In order to run P2Pool and other Python based pools with the Decred network, you would need to build and install the
-blake_hash module for Python that includes the blake-256 proof of work code that Decred uses for hashes.
+In order to run P2Pool and other Python based pools with the Zcoin network, you would need to build and install the
+lyra2z_hash module for Python that includes the lyra2z proof of work code that Zcoin uses for hashes.
 
 Linux:
 
