@@ -1,6 +1,6 @@
 #include <Python.h>
 
-#include "Lyra2z.h"
+#include "lyra2z.h"
 
 static PyObject *lyra2z_getpowhash(PyObject *self, PyObject *args)
 {
