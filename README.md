@@ -18,7 +18,6 @@ Please see the "test.py" for a testcase to verify your implementation.
 
 from ocminer:
 
-=========================
 Requirements:
 -------------------------
 In order to run P2Pool and other Python based pools with the Decred network, you would need to build and install the
