@@ -7,10 +7,11 @@ lyra2z-py - my testing for making C module for lyra2z hashing.
 2. Make Python module wrapper - done
 3. Make setup - done
 4. Make linux work - done
-5. Add test.py - done 
+5. Make linux work - done
+6. Add test.py - done 
 
 
-You can update a p2pool fork with lyra2z_hash module ...
+Now you can update a p2pool fork with lyra2z_hash module ...
 
 ---------------------------------------------------------------------
 
@@ -29,26 +30,35 @@ Linux:
 
     sudo python setup.py install
 
+
 Windows (mingw):
 * Install MinGW: http://www.mingw.org/wiki/Getting_Started
 * Install Python 2.7: http://www.python.org/getit/
 
-In bash type this:
+In cmd type this:
 
     C:\Python27\python.exe setup.py build --compile=mingw32 install
 
+    - untested
+
+	
 Windows (microsoft visual c++)
 * Open visual studio console
 
 In cmd type this:
 
-    SET VS90COMNTOOLS=%VS110COMNTOOLS%	           # For visual c++ 2012
-    SET VS90COMNTOOLS=%VS100COMNTOOLS%             # For visual c++ 2010
-    C:\Python27\python.exe setup.py build --compile=mingw32 install
-	
-If you run into an error with unrecognized command line option '-mno-cygwin', see this:
-http://stackoverflow.com/questions/6034390/compiling-with-cython-and-mingw-produces-gcc-error-unrecognized-command-line-o
+    SET VS90COMNTOOLS=%VS140COMNTOOLS%	           # For visual c++ 2015
+    C:\Python27\python.exe setup.py install
 
+	Test the install:
+	
+	C:\Python27\python.exe
+	...
+	>>>import lyra2z_hash
+	>>>help('lyra2z_hash')
+	>>>quit()
+	
+  - tested ok
 
 
 
