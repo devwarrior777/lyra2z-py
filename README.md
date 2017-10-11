@@ -1,14 +1,14 @@
 
---------------------------------------------------------------
-lyra2z-py - my testing for making C module for lyra2z hashing. 
---------------------------------------------------------------
+--------------------------------------------------------------------
+lyra2z-py - my testing for making Python C module for lyra2z hashing 
+--------------------------------------------------------------------
 
 1. Make C code work - lyra2z-zcoin is a simple windows test harness for that - done
 2. Make Python module wrapper - done
 3. Make setup - done
 4. Make linux work - done
-5. Make linux work - done
-6. Add test.py - done 
+5. Make windows work - done
+6. Add test.py - done
 
 
 Now you can update a p2pool fork with lyra2z_hash module ...
@@ -19,7 +19,7 @@ Notes for Zcoin:
 
 Please see the "test.py" for a testcase to verify your implementation.
 
-Previous from ocminer:
+Previous readme from ocminer (updated):
 
 Requirements:
 -------------------------
@@ -58,7 +58,7 @@ In cmd type this:
 	>>>help('lyra2z_hash')
 	>>>quit()
 	
-  - tested ok
+    - tested ok
 
 
 
