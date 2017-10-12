@@ -1,14 +1,16 @@
 
-----------------------------------------------
-lyra2z-py - Python C module for lyra2z hashing 
-----------------------------------------------
+----------------------------------
+Python C module for lyra2z hashing 
+----------------------------------
 
 Notes for Zcoin:
 ----------------
 
-Please see the "test.py" for a testcase to verify your implementation.
+Module: lyra2z_hash
 
-From the previous readme from ocminer (updated):
+Please see the "test.py" for a testcase
+
+From a previous readme from ocminer (updated):
 
 Requirements:
 -------------
