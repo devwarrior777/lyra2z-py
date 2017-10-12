@@ -6,8 +6,6 @@ lyra2z-py - Python C module for lyra2z hashing
 Notes for Zcoin:
 ----------------
 
-Use to update a p2pool fork with lyra2z_hash module ...
-
 Please see the "test.py" for a testcase to verify your implementation.
 
 From the previous readme from ocminer (updated):
